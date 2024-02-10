@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #ececf4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: lightskyblue;
+    padding: 40px;
+    border-bottom: 2px solid #337;
+}
+
+h1 {
+    width: 50%;
+    display: inline-block;
+}
+
+nav {
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
