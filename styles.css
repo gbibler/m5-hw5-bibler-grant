@@ -6,6 +6,7 @@
 
 body {
     background: #ececf4;
+    background-image: url(/Images/background.jpg);
 }
 
 .container {
@@ -39,4 +40,43 @@ nav a {
     background: black;
     padding: 10px 15px;
     border-radius: 4px;
+}
+
+main {
+    width: 66%;
+    display: inline-block;
+    background: white;
+    padding: 20px;
+}
+
+.main-content {
+    margin: 20px auto;
+}
+
+aside {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    padding: 20px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+main p {
+    line-height: 140%;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+footer {
+    background: #333;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
 }
